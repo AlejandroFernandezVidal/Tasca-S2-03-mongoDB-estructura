@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "62f2ccd64536c2e630aa23aa"
+  },
+  "cliente": {
+    "$oid": "62f24b0434854b4e346564c9"
+  },
+  "fecha_hora": {
+    "$date": {
+      "$numberLong": "1659916800000"
+    }
+  },
+  "local_domicilio": "domicilio",
+  "cantidad_productos": [
+    1,
+    1,
+    1
+  ],
+  "fecha_hora_entrega": {
+    "$date": {
+      "$numberLong": "1659918300000"
+    }
+  },
+  "repartidor": {
+    "$oid": "62f2caa94536c2e630aa23a1"
+  },
+  "precio": {
+    "$numberDecimal": "29.05"
+  },
+  "tienda": {
+    "$oid": "62f2c8d54536c2e630aa2382"
+  }
+}]

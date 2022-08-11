@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "62f432fa7fd287734079ff55"
+  },
+  "fecha": {
+    "$date": {
+      "$numberLong": "1660003200000"
+    }
+  },
+  "texto": "me gusta mucho la manera de visualizar la ciudad",
+  "usuario": {
+    "$oid": "62f433537fd287734079ff65"
+  },
+  "video": {
+    "$oid": "62f433467fd287734079ff64"
+  },
+  "gusta/no_gusta": {
+    "usuario": {
+      "$oid": "62f434677fd287734079ff66"
+    },
+    "fecha": {
+      "$date": {
+        "$numberLong": "1659916860000"
+      }
+    }
+  }
+}]

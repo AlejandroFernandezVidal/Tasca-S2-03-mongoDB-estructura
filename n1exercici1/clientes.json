@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "62f180767147e592d64370a3"
+  },
+  "direccion": "c/barcelona nº2",
+  "email": "antonio@bcnmail.com",
+  "nombre": "antonio",
+  "recomendado": {
+    "$oid": "62f4dc14be0c567630dbc3c6"
+  },
+  "telefono": "876543210",
+  "fecha_alta": {
+    "$date": {
+      "$numberLong": "978307200000"
+    }
+  }
+}]

@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "62f2c8d54536c2e630aa2382"
+  },
+  "codigo_postal": "08002",
+  "direccion": "c/balmes nº1",
+  "localidad": {
+    "$oid": "62f24efb34854b4e346564ce"
+  },
+  "provincia": {
+    "$oid": "62f24f1634854b4e346564d1"
+  }
+}]

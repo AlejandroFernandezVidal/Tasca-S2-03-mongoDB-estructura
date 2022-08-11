@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "62f2caa94536c2e630aa23a1"
+  },
+  "NIF": "01234567A",
+  "apellido": "navarro",
+  "nombre": "antonio",
+  "telefono": "234567890",
+  "tienda": {
+    "$oid": "62f2c8d54536c2e630aa2382"
+  },
+  "cocinero_repartidor": "repartidor"
+}]
