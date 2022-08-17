@@ -1,0 +1,11 @@
+use optica
+db.createCollection("proveedores")
+db.proveedores.insertOne({nombre:"gafasbcn",direccion:"c/barcelona nº1",telefono:"9876543210",fax:"1234567890",nif:"A6543210987"})
+db.createCollection("gafas")
+db.gafas.insertOne({proveedor:"62fcc7f4de3f076aad1d1048",marca:"bcnette",graduacion:[{"RH":1.25},{"LH":0.75}],montura:"pasta",color_montura:"negra",color_cristales:"azules",precio:125.75})
+db.createCollection("clientes")
+db.clientes.insertOne({nombre:"antonio",direccion:"c/barcelona nº2",telefono:"876543210",email:"antonio@bcnmail.com",fecha_alta:new Date("2001-01-01"),recomendado:"62f4dc14be0c567630dbc3c6"})
+db.createCollection("trabajadores")
+db.trabajadores.insertOne({nombre:"pepe",apellido:"navarrete"})
+db.createCollection("ventas")
+db.ventas.insertOne({gafas:"62fcc81dde3f076aad1d1049",cliente:"62fcc87ade3f076aad1d104a",trabajador:"2fcc8a6de3f076aad1d104b"})
